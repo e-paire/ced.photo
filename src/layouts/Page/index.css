@@ -1,0 +1,27 @@
+@import "../../assets/styles/mq.css";
+
+.page {
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (--mq-m) {
+  .page {
+    padding: 20px;
+  }
+}
+
+@media (--mq-l) {
+  .page {
+    padding: 30px;
+  }
+}
+
+@media (--mq-xl) {
+  .page {
+    padding: 50px;
+  }
+}

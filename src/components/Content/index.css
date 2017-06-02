@@ -1,0 +1,12 @@
+@import "../../assets/styles/mq.css";
+
+.content {
+  margin: auto;
+  max-width: 1000px;
+}
+
+@media (--mq-lt-xl) {
+  .content {
+    padding: 0 10px;
+  }
+}

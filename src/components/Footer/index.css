@@ -1,0 +1,21 @@
+@import "../../assets/styles/variables.css";
+
+.footer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  background: var(--color_cream_light);
+}
+
+.svg {
+  display: flex;
+  margin: 0 5px;
+}
+
+.link,
+.link:hover {
+  margin-bottom: 0;
+  border-bottom: 0;
+}

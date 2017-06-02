@@ -1,0 +1,103 @@
+@import "../../assets/styles/mq.css";
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: fixed;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  font-family: 'Janesville Script';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.camera {
+  height: 30px;
+  width: 30px;
+}
+
+.drone {
+  height: 70px;
+  width: 70px;
+}
+
+.camera,
+.drone {
+  filter: drop-shadow(1px 1px 5px #000);
+}
+
+@media (--mq-s) {
+  .text {
+    font-size: 50px;
+  }
+}
+
+@media (--mq-m) {
+  .text {
+    font-size: 80px;
+  }
+}
+
+@media (--mq-l) {
+  .text {
+    font-size: 90px;
+  }
+}
+
+@media (--mq-xl) {
+  .text {
+    font-size: 100px;
+  }
+}
+
+@media (--mq-gt-m) {
+  .content {
+    flex-direction: row;
+  }
+
+  .text {
+    margin-top: 10px;
+  }
+
+  .camera {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+  }
+
+  .drone {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+  }
+}

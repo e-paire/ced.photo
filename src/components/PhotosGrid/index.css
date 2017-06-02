@@ -1,0 +1,87 @@
+@import "../../assets/styles/mq.css";
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  flex: 0 1 33%;
+  background-size: cover;
+  position: relative;
+}
+
+.link:before {
+  content: "";
+  display: block;
+  padding-top: 75%;
+}
+
+a.link {
+  border-bottom: 0;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  text-align: center;
+  transition: opacity 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+  color: #fff;
+  font-size: 50px;
+}
+
+@media (--mq-s) {
+  .link {
+    flex-basis: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media (--mq-m) {
+  .link {
+    flex-basis: 50%;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (--mq-l) {
+  .link {
+    flex-basis: 33.33%;
+  }
+}
+
+@media (--mq-xl) {
+  .link {
+    flex-basis: 25%;
+  }
+}
+
+@media (--mq-lt-l) {
+  .link .mask {
+    opacity: 1;
+  }
+}
+
+@media (--mq-gt-m) {
+  .link:hover .mask {
+    opacity: 1;
+  }
+}

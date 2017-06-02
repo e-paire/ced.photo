@@ -1,0 +1,141 @@
+@import "../../assets/styles/variables.css";
+@import "../../assets/styles/mq.css";
+
+.nav {
+  position: relative;
+}
+
+.item {
+  list-style: none;
+}
+
+a.link {
+  text-transform: uppercase;
+  color: var(--color_text_light);
+  text-decoration: none;
+  border-bottom: 0px solid var(--color_text_dark);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+a.link_active {
+  color: var(--color_text_dark);
+  border-bottom-width: 1px;
+}
+
+a.link + a.link {
+  margin-left: 50px;
+}
+
+a.logo {
+  border-bottom: none;
+}
+
+@media (--mq-gt-m) {
+  .nav {
+    height: 120px;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+
+  .list > .item {
+    flex: 0 0 calc((100%  - 140px) / 6);
+    text-align: center;
+  }
+
+  .list > .item:nth-child(3) {
+    margin-right: 70px;
+  }
+
+  .list > .item:nth-child(4) {
+    margin-left: 70px;
+  }
+
+  a.link:hover {
+    color: var(--color_text_dark);
+    border-bottom-width: 1px;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    display: block;
+  }
+}
+
+
+@media (--mq-lt-l) {
+  .nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .item {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .link {
+    flex: 1 1 auto;
+    text-align: center;
+    line-height: 70px;
+  }
+
+  .itemLogo {
+    display: none;
+  }
+
+  .list {
+    display: none;
+    font-size: 20px;
+  }
+
+  .list_open {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--color_cream_light);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    padding: 10px;
+  }
+
+  a.link {
+    padding-bottom: 0;
+  }
+
+  a.link_active {
+    border-bottom-width: 0;
+  }
+
+  .toggle {
+  }
+
+  .logo {
+    height: 50px;
+  }
+}

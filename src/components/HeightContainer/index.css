@@ -1,0 +1,6 @@
+@import "../../assets/styles/mq.css";
+
+.container {
+  flex: 1 1 auto;
+  overflow: hidden;
+}

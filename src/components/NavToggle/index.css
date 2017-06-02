@@ -1,0 +1,56 @@
+@import "../../assets/styles/variables.css";
+
+.toggle {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .toggle .icon,
+  .toggle .icon:before,
+  .toggle .icon:after {
+    width: 20px;
+    height: 1px;
+    background-color: var(--color_text_dark);
+    border-radius: 2px;
+    transition-duration: 0.5s;
+    transition-timing-function: swing;
+  }
+
+  .toggle .icon {
+    position: absolute;
+    top: 9px;
+    left: 0px;
+  }
+
+  .toggle .icon:before,
+  .toggle .icon:after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+
+  .toggle .icon:before {
+    top: -8px;
+  }
+
+  .toggle .icon:after {
+    top: 8px;
+  }
+
+  .toggle_open {
+    composes: toggle;
+  }
+
+  .toggle_open .icon {
+    width: 0;
+  }
+
+  .toggle_open .icon:before {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .toggle_open .icon:after {
+    transform: translateY(-8px) rotate(-45deg);
+  }

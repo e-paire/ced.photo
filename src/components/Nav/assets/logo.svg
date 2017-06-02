@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2230 2230" height="100%">
+  <g fill="none">
+    <path d="M-85-85h2400v2400H-85z" />
+    <path stroke="#000" stroke-width="30" d="M15 315V15h300m1600 0h300v300M15 1915v300h300m1900-322.7V2215h-360.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g stroke="#000" stroke-width="30">
+      <path d="M1015 249h200" />
+      <path d="M1363.6 417.8h1.4v-230S1245.2 132 1124.2 132c-121 0-259.2 56-259.2 56v230h1.4c77.6-28 161.4-43 248.6-43 87.2 0 171 15 248.6 42.8z" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g transform="translate(464 375)">
+      <mask id="b" fill="#fff">
+        <path id="a" d="M670.7 652.8v114h691.5L1226.8.8.4 25.2l9.2 1358h1056l322-491-116 18v51.2H575.8L451 847.8z" />
+      </mask>
+      <path id="e" stroke="#000" stroke-width="30" d="M1236.8 943.5C1152.6 1186 922 1360 651 1360c-342.4 0-620-277.6-620-620s277.6-620 620-620 620 277.6 620 620c0 5 0 10-.2 15H681l555.8 188.5z" mask="url(#b)" />
+      <g transform="translate(76 139)">
+        <mask id="d" fill="#fff">
+          <path id="c" d="M600 .5l-9 601 699.6-325L600 .5zm-26.5 614.8v604.4L1 840.4l572.5-225z" />
+        </mask>
+        <circle cx="575" cy="601" r="500" stroke="#000" stroke-width="30" mask="url(#d)" />
+      </g>
+    </g>
+    <path id="cd" stroke="#000" stroke-width="30" d="M615 1660.5v4.5H15V565h150V465h200v100h250v4.5C467.5 704.7 375 899 375 1115s92.5 410.3 240 545.5zm1000 0v4.5h600V565h-600v4.5c147.5 135.2 240 329.6 240 545.5 0 216-92.5 410.3-240 545.5z" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(475 875)">
+      <mask id="f" fill="#fff">
+        <path d="M0 0h1730v460H0z" />
+      </mask>
+      <ellipse cx="620" cy="240" stroke="#000" stroke-width="30" mask="url(#f)" rx="950" ry="950" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+@import "../../assets/styles/variables.css";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+}
+
+.date {
+  font-size: 17px;
+  line-height: 1.6em;
+  color: var(--color_gray);
+  text-align: center;
+}
+
+.description {
+  margin: 50px 0;
+}
+
+.readMore {
+  display: flex;
+  justify-content: flex-end;
+}
