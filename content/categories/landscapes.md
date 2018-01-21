@@ -29,5 +29,8 @@ photos:
 - url: ../assets/landscapes/tenerife-teide-parc.jpg
 - url: ../assets/landscapes/tihany-sailboat.jpg
 - url: ../assets/landscapes/tihany.jpg
+- url: ../assets/landscapes/austria-1.jpg
+- url: ../assets/landscapes/austria-2.jpg
 ---
+
 Quoi de mieux que magnifique paysage ?

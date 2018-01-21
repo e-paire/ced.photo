@@ -7,6 +7,20 @@ metaTitle: Mes photos prises avec le drone DJI Mavic Pro
 metaDescription: Quelques unes de mes photos prises depuis mon drone (DJI Mavic Pro)
 position: 1
 photos:
+- url: ../assets/from-sky/austria-1.jpg
+- url: ../assets/from-sky/austria-2.jpg
+- url: ../assets/from-sky/austria-3.jpg
+- url: ../assets/from-sky/austria-4.jpg
+- url: ../assets/from-sky/austria-5.jpg
+- url: ../assets/from-sky/austria-6.jpg
+- url: ../assets/from-sky/austria-7.jpg
+- url: ../assets/from-sky/austria-8.jpg
+- url: ../assets/from-sky/austria-9.jpg
+- url: ../assets/from-sky/austria-10.jpg
+- url: ../assets/from-sky/austria-11.jpg
+- url: ../assets/from-sky/austria-12.jpg
+- url: ../assets/from-sky/austria-13.jpg
+- url: ../assets/from-sky/austria-14.jpg
 - url: ../assets/from-sky/arraing-etang.jpg
 - url: ../assets/from-sky/ars-cascade.jpg
   caption: Les cascades d'ars
@@ -28,6 +42,7 @@ photos:
 - url: ../assets/from-sky/tenerife-teide-parc-3.jpg
 - url: ../assets/from-sky/tenerife-teide.jpg
 ---
+
 Dès que j'en ai l'occasion et que les conditions sont bonnes, je fais décoller mon drone pour faire des prises de vue depuis les airs.
 
 Les perspectives sont vraiment différentes vu du ciel.
